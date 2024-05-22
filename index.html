@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./_css/estilo.css">
+
+    <script defer src="./_js/script.js"></script>
+
+    <title>Faça sua Pokédex</title>
+</head>
+<body>
+    
+    <main>
+        <img src="./_imagens/images.png" alt="pokemon" class="pokemon_image">
+        <h1 class="pokemon_data">
+            <span class="pokemon_number"></span> -
+            <span class="pokemon_name"></span>
+        </h1>
+        <h2 class="descricao">
+            <span class="pokemon_desc"></span>
+        </h2>
+        
+        <form class="form">
+            <input type="search"
+            class="input_search"
+            placeholder="Nome ou Número"
+            required>
+        </form>
+
+        <div class="buttons-up">
+            <button class="button btn-prev">Ant&lt;</button>
+            <button class="button btn-next">Pró&gt;</button>
+        </div>
+        <div class="buttons-down">
+            <button class="button btn-review">Revelar</button>
+            <button class="button btn-upload">Upload</button>
+            <input class="fileInput" type="file" accept="image/*" style="display: none;">
+        </div>
+        <div class="tipo">
+            <span class="pokemon_tipo"></span>
+        </div>
+
+        <img src="./_imagens/pokedexm.png" alt="pokedex" class="pokedex">
+
+    </main>
+
+</body>
+
+<style>
+    
+</style>
+</html>
